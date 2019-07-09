@@ -73,12 +73,14 @@ body {
 
 header {
 	padding: 20px;
+	background-color: #0186EF;
+	position: fixed;
+	top: 0;
 }
 
 .nav li {
 	display: inline-block;
 	margin: 10px 30px;
-	color: grey;
 }
 
 .logo {
@@ -88,12 +90,13 @@ header {
 
 .wrapper {
 	margin: auto;
-	max-width: 600px;
+	max-width: 876px;
 }
 
 .first {
 	height: 450px;
-	padding: 20px 0 0 40px;
+	padding-top: 20px;
+	margin-top: 70px;
 }
 
 .intro {
