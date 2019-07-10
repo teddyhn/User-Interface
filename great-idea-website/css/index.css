@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0 10%;
+}
+
+header {
+	padding: 20px;
+	background-color: #0186EF;
+	position: fixed;
+	top: 0;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+.logo {
+	display: inline-block;
+	float: right;
+}
+
+.wrapper {
+	margin: auto;
+	max-width: 876px;
+}
+
+.first {
+	height: 450px;
+	padding-top: 20px;
+	margin-top: 70px;
+}
+
+.intro {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.intro h1{
+	text-align: center;
+	font-size: 64px;
+}
+
+.intro a{
+	margin: 150px;
+	padding: 0 50px;
+	border: 1px solid black;
+}
+
+.codepic {
+	display: inline-block;
+	float: right;
+}
+
+.above-img {
+	padding: 30px 0;
+	margin-bottom: 100px;
+	border-top: 1px solid black;
+}
+
+.left {
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+div.middle {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.right {
+	display: inline-block;
+	float: right;
+	text-align: left;
+}
+
+div.below-img {
+	text-align: center;
+}
+
+.above-img p {
+	width: 430px;
+}
+
+.middle-img {
+	display: block;
+	margin: auto;
+}
+
+.below-img {
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+}
+
+.below-img p {
+	width: 280px;
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+address {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.linespacing {
+	line-height: 3.2;
+}
